@@ -65,7 +65,9 @@ $RECYCLE.BIN/
 # Logs and databases
 ############################
 
-.tmp
+# Bỏ qua thư mục .tmp và các file cơ sở dữ liệu SQLite
+# Giữ lại tệp cơ sở dữ liệu SQLite của bạn để đẩy lên Git
+!./.tmp/data.db  # Thêm dòng này để theo dõi tệp cơ sở dữ liệu
 *.log
 *.sql
 *.sqlite
